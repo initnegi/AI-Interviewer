@@ -1,0 +1,15 @@
+
+venv/
+.venv/
+
+*node_modules
+__pycache__/
+*.copilot
+*.env
+*.pyc
+
+.DS_Store
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
