@@ -2,11 +2,25 @@
 venv/
 .venv/
 
-*node_modules
-__pycache__/
-*.copilot
+# Local environment and secrets
+.env
 *.env
+!.env.example
+!client/.env.example
+
+*node_modules
+node_modules/
+client/dist/
+dist/
+__pycache__/
+**/__pycache__/
+*.copilot
 *.pyc
+*.pyo
+*.pyd
+*.log
+.pytest_cache/
+.mypy_cache/
 
 .DS_Store
 data/*.db
